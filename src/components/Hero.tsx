@@ -12,8 +12,9 @@ function Hero({}: Props) {
       "Hi ",
       "This is Muhammad Faiz Raza",
       "<WEB Developer/>",
-      "Designer",
-      "Creator",
+      "Web Innovator",
+      "MERN Wizard",
+      "JS Full-Stack",
     ],
     loop: true,
     delaySpeed: 2000,
@@ -21,7 +22,7 @@ function Hero({}: Props) {
   return (
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden z-0">
       <BackGroundCircles />
-      {/* <img src={firstpicture} alt="" width="64" height="64" /> */}
+
       <Image
         src="/FirstImage.jpg"
         className="relative rounded-full mx-auto object-cover w-32 h-32"
@@ -31,7 +32,7 @@ function Hero({}: Props) {
       />
       <div className="z-20">
         <h2 className="text-sm uppercase text-gray-500 tracking-[5px]">
-          Front End Engineer{" "}
+          Web Artisan
         </h2>
         <h1 className="text-10xl lg:text-3xl font-semibold px-19">
           <span>

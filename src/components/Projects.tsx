@@ -17,7 +17,7 @@ const Projects = () => {
       className="h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0"
     >
       <h3 className="absolute top-24 uppercase tracking-[20px]"> Projects </h3>
-      <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20  scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80 scrollbar-thin ">
+      <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20  scrollbar-track-gray-400/20 scrollbar-thumb-[#00ffff]/80 scrollbar-thin ">
         {projects.map((project, i) => (
           <div
             key={i}
@@ -26,7 +26,7 @@ const Projects = () => {
             <Image src="" alt="" />
             <div className="space-y-10 px-0 md:px-10 max-w-6xl ">
               <h4 className="text-4xl font-semibold text-center ">
-                <span className="underline decoration-[#F7AB0A]/50">
+                <span className="underline decoration-[#00ffff]/50">
                   {" "}
                   Case Study {i + 1} of {Projects.length}:{" "}
                 </span>
@@ -42,7 +42,7 @@ const Projects = () => {
           </div>
         ))}
       </div>
-      <div className="w-full absolute top-[30%] bg-[#F7AB0A] opacity-50 left-0 h-[500px] -skew-y-12 "></div>
+      <div className="w-full absolute top-[30%] bg-[#00ffff] opacity-50 left-0 h-[500px] -skew-y-12 "></div>
     </motion.div>
   );
 };

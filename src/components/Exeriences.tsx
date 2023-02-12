@@ -9,11 +9,11 @@ const Exerience = (props: Props) => {
       <h3 className="absolute top-5 uppercase tracking-[20px] text-gray-300 text-2xl">
         Exerience
       </h3>
-      <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80 ">
+      <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#00ffff]/80 ">
         <ExperienceCard />
         <ExperienceCard />
 
-        <ExperienceCard />
+        {/* <ExperienceCard /> */}
       </div>
     </div>
   );

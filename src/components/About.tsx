@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import React from "react";
 import Image from "next/image";
-import SecondImage from "../../public/FirstImage.jpg";
+import SecondImage from "../../public/ImageAbout.jpeg";
 
 function About() {
   return (
@@ -25,15 +25,15 @@ function About() {
           </span>
         </h4>
         <p className="text-base">
-          {/* Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum. */}
+          As a web developer, I have a strong passion for creating intuitive,
+          visually appealing, and functional websites that provide a great user
+          experience. With One Year of experience in the industry, I have honed
+          my skills in Wordpress ,Shoppify , React ,Node. I am always eager to
+          stay current with the latest web development trends and techniques,
+          and I take pride in delivering clean, efficient, and well-structured
+          code. I believe in building websites that are not only aesthetically
+          pleasing, but also user-centric, accessible, and optimized for search
+          engines.
         </p>
       </div>
     </div>

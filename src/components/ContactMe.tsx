@@ -28,19 +28,19 @@ const ContactMe = ({}) => {
       <div className="flex flex-col space-y-10">
         <h4 className="text-4xl font-semibold text-center">
           I have got just what you need
-          <span className="decoration-[#F7AB0A]/50 underline"> Lets Talk </span>
+          <span className="decoration-[#00ffff]/50 underline"> Lets Talk </span>
         </h4>
         <div className="space-y-3">
           <div className="flex items-center space-x-5 justify-center">
-            <PhoneIcon className="h-7 w-7 text-[#F7AB0A] animate-pulse" />
+            <PhoneIcon className="h-7 w-7 text-[#00ffff] animate-pulse" />
             <p className="text-2xl">03131018267</p>
           </div>
           <div className="flex items-center space-x-5 justify-center">
-            <EnvelopeIcon className="h-7 w-7 text-[#F7AB0A] animate-pulse" />
+            <EnvelopeIcon className="h-7 w-7 text-[#00ffff] animate-pulse" />
             <p className="text-2xl">muhammadfaizraza48@gmail.com</p>
           </div>
           <div className="flex items-center space-x-5 justify-center">
-            <MapPinIcon className="h-7 w-7 text-[#F7AB0A] animate-pulse" />
+            <MapPinIcon className="h-7 w-7 text-[#00ffff] animate-pulse" />
             <p className="text-2xl">Karachi Pakistan </p>
           </div>
         </div>
@@ -74,7 +74,7 @@ const ContactMe = ({}) => {
             placeholder="Message"
             className="contactInput"
           />
-          <button className="bg-[#F7AB0A] py-5 px-10 rounded-md text-black font-bold text-lg">
+          <button className="bg-[#00ffff] py-5 px-10 rounded-md text-black font-bold text-lg">
             Submit
           </button>
         </form>

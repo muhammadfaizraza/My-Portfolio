@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import Firstimg from "../../public/FirstImage.jpg";
+import Avancera from "../../public/Avancera.png";
 import Logo from "../../public/logo.png";
 
 type Props = {};
@@ -15,7 +15,7 @@ const ExperienceCard = (props: Props) => {
     >
       <Image
         className="w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center"
-        src={Firstimg}
+        src={Avancera}
         alt=""
       />
       <div className="px-0 md:px-10">

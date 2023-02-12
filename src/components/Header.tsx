@@ -35,12 +35,17 @@ export default function Header({ socials }: Props) {
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://www.facebook.com/faizi.memon.7564?mibextid=ZbWKwL"
+          url="https://instagram.com/faixraxa?igshid=ZDdkNTZiNTM="
           fgColor="gray"
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://www.facebook.com/faizi.memon.7564?mibextid=ZbWKwL"
+          url="https://twitter.com/faizRaz18786363?t=K_BwC5CeKeTPB8MvXuHkYw&s=09"
+          fgColor="gray"
+          bgColor="transparent"
+        />
+        <SocialIcon
+          url="https://www.linkedin.com/in/muhammad-faiz-raza-21958b240"
           fgColor="gray"
           bgColor="transparent"
         />
