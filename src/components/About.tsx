@@ -29,7 +29,7 @@ function About() {
           MERN and React Native applications for SaaS and e-commerce platforms. I possess strong
           skills in React/Next.js, Node/Express, API design, and CI/CD, complemented by a growing
           expertise in Python and agentic AI. Currently working as a Full-Stack Mobile App Developer
-          at Santex Products, I've delivered React Native apps and Node/Express services with JWT/OAuth2
+          at Santex Products, I&apos;ve delivered React Native apps and Node/Express services with JWT/OAuth2
           authentication, real-time features with WebSockets, and optimized CI/CD pipelines. Previously,
           as a MERN Stack Developer at Avancera Solutions, I shipped full-stack features, improved frontend
           performance through code-splitting and optimization, and integrated payment and notification
