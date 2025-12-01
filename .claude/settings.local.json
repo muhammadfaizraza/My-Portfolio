@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(copy \"C:\\Users\\kashan\\Downloads\\WhatsApp Image 2025-11-03 at 1.36.24 AM.jpeg\" \"C:\\Users\\kashan\\Desktop\\Portfolio\\My-Portfolio\\public\\profile.jpg\")",
+      "Bash(curl:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

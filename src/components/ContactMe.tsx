@@ -17,7 +17,7 @@ const ContactMe = ({}) => {
     formState: { errors },
   } = useForm<Inputs>();
   const onSubmit: SubmitHandler<Inputs> = (formData) => {
-    window.location.href = `mailto:muhammadfaizraza@gmail?subject=${formData.subject}&body=my name is ${formData.name}. ${formData.message} (${formData.email}) `;
+    window.location.href = `mailto:muhammadfaizraza48@gmail.com?subject=${formData.subject}&body=my name is ${formData.name}. ${formData.message} (${formData.email}) `;
   };
 
   return (
@@ -33,7 +33,7 @@ const ContactMe = ({}) => {
         <div className="space-y-3">
           <div className="flex items-center space-x-5 justify-center">
             <PhoneIcon className="h-7 w-7 text-[#00ffff] animate-pulse" />
-            <p className="text-2xl">03131018267</p>
+            <p className="text-2xl">+92 3199260122</p>
           </div>
           <div className="flex items-center space-x-5 justify-center">
             <EnvelopeIcon className="h-7 w-7 text-[#00ffff] animate-pulse" />
@@ -41,7 +41,7 @@ const ContactMe = ({}) => {
           </div>
           <div className="flex items-center space-x-5 justify-center">
             <MapPinIcon className="h-7 w-7 text-[#00ffff] animate-pulse" />
-            <p className="text-2xl">Karachi Pakistan </p>
+            <p className="text-2xl">Karachi, Pakistan</p>
           </div>
         </div>
 

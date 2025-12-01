@@ -1,8 +1,26 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Image from "next/image";
 
-const projects = [1, 2, 3, 4];
+const projects = [
+  {
+    name: "Pool Nest",
+    description: "SaaS application for multi-vendor pool services. Built admin dashboard, scheduling, and payouts with role-based access and granular permissions.",
+    link: "https://dashboard.thepoolnest.com/",
+    tech: ["React", "Node.js", "Express", "MongoDB", "RBAC"]
+  },
+  {
+    name: "Saddle Battles",
+    description: "Real-time betting web app built using MERN stack. Implemented multilingual, real-time experience with websocket rooms and settlement logic. Handled high-traffic live sessions with admin controls and audit logging.",
+    link: "https://saddlebattles.com/",
+    tech: ["MERN Stack", "WebSockets", "Real-time", "Admin Controls"]
+  },
+  {
+    name: "Legacy Honored",
+    description: "QR management system using the MERN stack. QR generation/tracking with analytics and RBAC for fast lookups over large datasets.",
+    link: "https://app.legacyhonored.com/",
+    tech: ["MERN Stack", "QR System", "Analytics", "RBAC"]
+  }
+];
 
 const Projects = () => {
   return (
@@ -21,23 +39,39 @@ const Projects = () => {
         {projects.map((project, i) => (
           <div
             key={i}
-            className="w-full flex-shrink-0 sna  p-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen  "
+            className="w-full flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen"
           >
-            <Image src="" alt="" />
-            <div className="space-y-10 px-0 md:px-10 max-w-6xl ">
-              <h4 className="text-4xl font-semibold text-center ">
+            <div className="space-y-10 px-0 md:px-10 max-w-6xl">
+              <h4 className="text-4xl font-semibold text-center">
                 <span className="underline decoration-[#00ffff]/50">
-                  {" "}
-                  Case Study {i + 1} of {Projects.length}:{" "}
+                  Project {i + 1} of {projects.length}: {project.name}
                 </span>
               </h4>
               <p className="text-lg text-center md:text-left">
-                {/* Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries */}
+                {project.description}
               </p>
+              <div className="flex flex-wrap gap-2 justify-center md:justify-start">
+                {project.tech.map((tech, index) => (
+                  <span
+                    key={index}
+                    className="px-3 py-1 bg-[#00ffff]/20 rounded-full text-sm"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+              {project.link && (
+                <div className="text-center md:text-left">
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[#00ffff] hover:underline"
+                  >
+                    View Project →
+                  </a>
+                </div>
+              )}
             </div>
           </div>
         ))}

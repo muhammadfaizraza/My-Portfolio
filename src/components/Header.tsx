@@ -27,25 +27,18 @@ export default function Header({ socials }: Props) {
         }}
         className="flex flex-row items-center"
       >
-        <SocialIcon fgColor="gray" bgColor="transparent" />
-
         <SocialIcon
-          url="https://www.facebook.com/faizi.memon.7564?mibextid=ZbWKwL"
+          url="https://www.linkedin.com/in/muhammadfaizraza"
           fgColor="gray"
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://instagram.com/faixraxa?igshid=ZDdkNTZiNTM="
+          url="https://github.com/muhammadfaizraza"
           fgColor="gray"
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://twitter.com/faizRaz18786363?t=K_BwC5CeKeTPB8MvXuHkYw&s=09"
-          fgColor="gray"
-          bgColor="transparent"
-        />
-        <SocialIcon
-          url="https://www.linkedin.com/in/muhammad-faiz-raza-21958b240"
+          url="mailto:muhammadfaizraza48@gmail.com"
           fgColor="gray"
           bgColor="transparent"
         />
